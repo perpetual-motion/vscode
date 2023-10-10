@@ -1,0 +1,33 @@
+{
+  "name": "@perpetual-motion/vscode",
+  "version": "1.0.5",
+  "description": "Isolated Visual Studio Code",
+  "main": "dist/code.js",
+  "bin": "dist/code.js",
+  "readme": "./readme.md",
+  "author": "Garrett Serack",
+  "homepage": "https://github.com/perpetual-motion/vscode",
+  "repository": {
+    "url": "https://github.com/perpetual-motion/vscode",
+    "type": "git"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/glob": "^7.1.6",
+    "@types/node": "^18.11.9",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "@vscode/test-electron": "^2.3.3",
+    "comment-json": "^4.1.1",
+    "glob": "^7.1.6"
+  },
+  "scripts": {
+    "build": "tsc --build tsconfig.json",
+    "watch": "tsc -p tsconfig.json --watch"
+  },
+  "files": [
+    "/dist",
+    "./readme.md"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "typescript.tsdk": "node_modules\\typescript\\lib",
+  "files.exclude": {
+    "dist": true, // set this to true to hide the "out" folder with the compiled JS files
+    "node_modules": true
+  },
+}
