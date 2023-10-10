@@ -13,7 +13,7 @@ You can override `id` by passing `--id=<id>` as an argument.
 
 Simple: install the package
 ``` powershell
-npm install -g @perpetual-motion/vscode`
+npm install -g @perpetual-motion/vscode
 ```
 
 ## Usage
